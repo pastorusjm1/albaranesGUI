@@ -1,0 +1,7 @@
+-- entorno virtual
+    python -m venv .venv
+    source .venv/bin/activate
+    deactivate
+-- para hacer ejecutable en windows
+pip install pyinstaller
+pyinstaller --windowed --onefile --name="albaranesGUI" main.py
