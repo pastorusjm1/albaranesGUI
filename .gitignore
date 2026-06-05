@@ -3,3 +3,5 @@ __pycache__/
 .venv/
 build/
 *.spec
+dist/
+copias_seguridad_nube/
